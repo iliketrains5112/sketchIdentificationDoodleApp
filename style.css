@@ -1,37 +1,20 @@
 body{
-    background-image: linear-gradient(rgb(255, 67, 67), rgb(66, 49, 255));
-
-    text-align: center;
+    background-color: rgb(249, 86, 86);
 }
 
-h1{
-    color: blueviolet;
-    background-color: whitesmoke;
+#score{
+    font-size: 28px;
+    float:left;
+    margin-left: 400px;
+}
+#timer{
+    font-size: 28px;
+    float:right;
+    margin-right: 400px;
 }
 
-#show_sketch{
-    float: right;
-    margin-right: 20px;
-    margin-top: 2.5px;
-}
-
-canvas{
-    border: 5px solid whitesmoke;
-    border-radius:35px;
-    animation-name: borderChangeAnimation;
-    animation-duration: 5s;
-    margin-top: 50px;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-@keyframes borderChangeAnimation{
-    from{
-        box-shadow: 1px 1px 38px rgb(255, 36, 36);
-    }
-    to{
-        box-shadow: 1px 1px 38px rgb(69, 40, 255);
-    }}
-p{
-    padding-top: 10px;
-    font-size: 25px;
+#drawThis{
+    color:black;
+    font-weight: bold;
+    font-size: 30px;
 }
